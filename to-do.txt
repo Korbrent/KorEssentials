@@ -1,0 +1,7 @@
+Short term:
+    /nick command
+    better nickname displays and better tablist
+
+Long term:
+    set up permissions
+    better configurations

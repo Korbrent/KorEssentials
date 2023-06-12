@@ -1,0 +1,41 @@
+name: KorEssentials
+version: 1.19.0
+main: to.us.tcfc.koressentials.KorEssentials
+author: Korbrent
+api-version: 1.19
+
+commands:
+  tpa:
+    description: Request to teleport to a player
+    usage: /<command> <player>
+  tpahere:
+    description: Request a player to teleport to you
+    usage: /<command> <player>
+  tpaccept:
+    description: Accept a teleport request
+    usage: /<command>
+    aliases:
+    - tpyes
+  tpdeny:
+    description: Deny a teleport request
+    usage: /<command>
+    aliases:
+    - tpno
+  sethome:
+    description: Set your home
+    usage: /<command> [name]
+  home:
+    description: Teleport to your home
+    usage: /<command> [name]
+  delhome:
+    description: Delete your home
+    usage: /<command> [name]
+  homes:
+    description: List your homes
+    usage: /<command>
+  back:
+    description: Teleport to your last location
+    usage: /<command>
+  bed:
+    description: Teleport to your bed
+    usage: /<command>
