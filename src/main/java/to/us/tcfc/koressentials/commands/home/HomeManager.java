@@ -13,7 +13,7 @@ import java.util.List;
 
 public class HomeManager {
     FileConfiguration config;
-    private int maxHomes = 10;
+    private int maxHomes;
     Subscriber subscriber;
     File configFile;
 
@@ -21,6 +21,7 @@ public class HomeManager {
         this.subscriber = subscriber;
         configFile = new File(subscriber.getDataFolder(), "homes.yml");
         makeConfig();
+        maxHomes = subscriber.getConfig().getInt("max_homes");
         this.saveConfig();
     }
 

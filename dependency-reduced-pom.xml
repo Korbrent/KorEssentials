@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>to.us.tcfc</groupId>
   <artifactId>KorEssentials</artifactId>
-  <version>Live-0.1.0</version>
+  <version>Live-0.1.2</version>
   <build>
     <plugins>
       <plugin>

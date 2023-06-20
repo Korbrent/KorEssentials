@@ -1,2 +1,2 @@
-homes:
-  max_homes: 5
+max_homes: 10
+world_name: 'world2'

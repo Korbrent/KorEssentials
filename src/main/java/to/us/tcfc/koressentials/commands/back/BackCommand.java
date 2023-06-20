@@ -16,9 +16,11 @@ public class BackCommand extends _iCommand {
 
     private boolean backCommand(Player p) {
         if (backLocations.containsKey(p.getUniqueId())) {
+            Location oldLocation = p.getLocation();
             p.teleport(backLocations.get(p.getUniqueId()));
             p.sendMessage(ChatColor.YELLOW + "Teleported to your last location.");
             backLocations.remove(p.getUniqueId());
+            setBackLocation(p.getUniqueId(), oldLocation);
         } else {
             p.sendMessage(ChatColor.RED + "You have no last location to teleport to!");
         }

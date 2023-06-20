@@ -6,7 +6,7 @@
 
     <groupId>to.us.tcfc</groupId>
     <artifactId>KorEssentials</artifactId>
-    <version>Live-0.1.0</version>
+    <version>Live-0.1.2</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
